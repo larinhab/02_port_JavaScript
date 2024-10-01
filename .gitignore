@@ -1,0 +1,55 @@
+# Diretórios
+node_modules/
+dist/
+build/
+coverage/
+logs/
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+
+# Arquivos de configuração
+*.env
+*.local
+*.config
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos de compilação
+*.class
+*.jar
+*.war
+*.o
+*.so
+*.exe
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos do Java
+*.class
+*.jar
+*.war
+
+# Arquivos do Ruby
+*.gem
+*.rbc
+/.bundle/
+
+# Arquivos do PHP
+vendor/
+composer.lock
+
+# Arquivos do Go
+*.exe
+*.exe~

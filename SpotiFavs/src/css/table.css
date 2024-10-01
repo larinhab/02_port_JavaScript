@@ -1,0 +1,161 @@
+.table-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 800px;
+    height: 300px;
+    margin: 200px auto;
+    padding: 1.2rem;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 2.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.37);
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    max-width: 600px;
+}
+
+table {
+    max-width: 600px;
+    border-collapse: collapse;
+
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.37);
+}
+
+table * {
+    font-size: 1rem;
+    color: var(--text-color-table);
+    
+    text-align: center;
+}
+
+table th {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
+table th:first-child {
+    border-top-left-radius: .6rem;
+}
+
+table th:last-child {
+    border-top-right-radius: .6rem;
+}
+
+table td {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+}
+
+/*
+table td:last-child{
+    border-bottom-right-radius: .6rem;
+}
+*/
+
+table td:first-child {
+    border-bottom-left-radius: .6rem;
+}
+
+tbody tr:first-child {
+    border-bottom-left-radius: .6rem;
+}
+
+td.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom-left-radius: .6rem;
+}
+
+td.user img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+td.user a p {
+    font-weight: bold;
+    border-bottom-left-radius: .6rem;
+}
+
+td .remove {
+    background: none;
+    border: none;
+
+    color: red;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+tr {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.return {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+
+    width: 2.5rem;
+    padding: .5rem;
+
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    cursor: pointer;
+    transition: .6s;
+}
+
+.return:hover {
+    background-color: var(--btn-hover);
+    transition: .6s;
+}
+
+.table-wrapper input {
+    width: 14rem;
+    
+    padding: 0.7rem;
+    
+    border: none;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

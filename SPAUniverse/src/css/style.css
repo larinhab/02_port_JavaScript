@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/src/assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#exp, #uni {
+    height: 100vh;
+    width:  100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+main {
+    margin: 0 auto;
+}
+
+nav {
+    max-width: 800px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    margin-top: 40px;
+    gap: 32px;
+}
+
+nav img {
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+li a {
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+li a:hover{
+    opacity: .6;
+    transition: .6s;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+
+    text-transform: uppercase;
+
+    padding: 12px 32px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .6;
+    transition: .6s;
+}
+ 
+main {
+    margin: 0 auto;
+
+}
+
+main h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.content {
+    display: grid;
+    place-content: center;
+    margin-top: 300px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.universe,
+.explorer {
+    width: 500px;
+    margin: 100px 100px;
+    padding: 20px;
+}
+
+.universe h1,
+.explorer h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 12px;
+}
+
+.universe p,
+.explorer p {
+    font-size: 22px;
+}
